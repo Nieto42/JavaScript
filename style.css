@@ -1,0 +1,19 @@
+* {
+    border-radius: 30px;
+    padding: 8px;
+    text-align: center;
+}
+body {
+    min-height: 100vh;
+    transition: .5s;
+}
+img {
+    height: 200px;
+    margin: 0 auto;
+    transition: 1s;
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
